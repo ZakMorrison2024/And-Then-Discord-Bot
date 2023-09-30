@@ -10,7 +10,6 @@ async def on_message(message): # when client types a message
          text = "And Then ..." # define text
          await message.channel.send(text) # discord sends data back
 
-async def on_message(message): # when client types a message
   if message.content.startswith('And Then'):
          text = "And Then, And Then, And Then!" # define text
          await message.channel.send(text) # discord sends data back
